@@ -9,7 +9,7 @@ Summary:	IPC::Signal perl module
 Summary(pl):	Modu³ perla IPC::Signal
 Name:		perl-IPC-Signal
 Version:	1.00
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
