@@ -6,7 +6,8 @@ Summary(pl):	Modu³ perla IPC::Signal
 Name:		perl-IPC-Signal
 Version:	1.00
 Release:	9
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	4cebf17fdf1785eaf8c151bf2e8c360a
