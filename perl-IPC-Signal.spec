@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	IPC
 %define	pnam	Signal
-Summary:	IPC-Signal perl module
-Summary(pl):	Modu³ perla IPC-Signal
+Summary:	IPC::Signal perl module
+Summary(pl):	Modu³ perla IPC::Signal
 Name:		perl-IPC-Signal
 Version:	1.00
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-IPC-Signal module contains utility functions for dealing with signals.
+IPC::Signal module contains utility functions for dealing with signals.
 
 %description -l pl
-Modu³ IPC-Signal zawiera funkcje narzêdziowe do operowania na
+Modu³ IPC::Signal zawiera funkcje narzêdziowe do operowania na
 sygna³ach.
 
 %prep
