@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	IPC
 %define	pnam	Signal
-%include	/usr/lib/rpm/macros.perl
 Summary:	IPC-Signal perl module
 Summary(pl):	Modu³ perla IPC-Signal
 Name:		perl-IPC-Signal
 Version:	1.00
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ Modu³ IPC-Signal zawiera funkcje narzêdziowe do operowania na
 sygna³ach.
 
 %prep
-%setup -q -n IPC-Signal-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
