@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	IPC
-%define	pnam	Signal
+%define		pdir	IPC
+%define		pnam	Signal
 Summary:	IPC::Signal perl module
 Summary(pl):	Modu³ perla IPC::Signal
 Name:		perl-IPC-Signal
