@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla IPC-Signal
 Name:		perl-IPC-Signal
 Version:	1.00
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/IPC/IPC-Signal-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/IPC/IPC-Signal-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -15,10 +15,11 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-IPC-Signal module contains utility functions for dealing with signals. 
+IPC-Signal module contains utility functions for dealing with signals.
 
 %description -l pl
-Modu³ IPC-Signal zawiera funkcje narzêdziowe do operowania na sygna³ach.
+Modu³ IPC-Signal zawiera funkcje narzêdziowe do operowania na
+sygna³ach.
 
 %prep
 %setup -q -n IPC-Signal-%{version}
