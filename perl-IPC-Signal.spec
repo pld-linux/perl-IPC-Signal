@@ -6,7 +6,7 @@
 %define		pdir	IPC
 %define		pnam	Signal
 Summary:	IPC::Signal perl module
-Summary(pl):	Modu≥ perla IPC::Signal
+Summary(pl.UTF-8):   Modu≈Ç perla IPC::Signal
 Name:		perl-IPC-Signal
 Version:	1.00
 Release:	10
@@ -23,9 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 IPC::Signal module contains utility functions for dealing with signals.
 
-%description -l pl
-Modu≥ IPC::Signal zawiera funkcje narzÍdziowe do operowania na
-sygna≥ach.
+%description -l pl.UTF-8
+Modu≈Ç IPC::Signal zawiera funkcje narzƒôdziowe do operowania na
+sygna≈Çach.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
