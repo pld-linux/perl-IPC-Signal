@@ -6,7 +6,7 @@
 %define		pdir	IPC
 %define		pnam	Signal
 Summary:	IPC::Signal perl module
-Summary(pl.UTF-8):   Moduł perla IPC::Signal
+Summary(pl.UTF-8):	Moduł perla IPC::Signal
 Name:		perl-IPC-Signal
 Version:	1.00
 Release:	10
