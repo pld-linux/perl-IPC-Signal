@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	IPC
 %define		pnam	Signal
+%include	/usr/lib/rpm/macros.perl
 Summary:	IPC::Signal perl module
 Summary(pl.UTF-8):	Moduł perla IPC::Signal
 Name:		perl-IPC-Signal
@@ -15,13 +15,15 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	4cebf17fdf1785eaf8c151bf2e8c360a
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/IPC-Signal/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-IPC::Signal module contains utility functions for dealing with signals.
+IPC::Signal module contains utility functions for dealing with
+signals.
 
 %description -l pl.UTF-8
 Moduł IPC::Signal zawiera funkcje narzędziowe do operowania na
