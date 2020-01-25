@@ -4,7 +4,6 @@
 
 %define		pdir	IPC
 %define		pnam	Signal
-%include	/usr/lib/rpm/macros.perl
 Summary:	IPC::Signal perl module
 Summary(pl.UTF-8):	Moduł perla IPC::Signal
 Name:		perl-IPC-Signal
